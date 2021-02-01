@@ -4,6 +4,7 @@
     padding:0;
 }
 
+
 .linear-gradient-background {
     background-image: linear-gradient(
       rgb(20, 19, 19),
@@ -26,7 +27,7 @@
         overflow: hidden;
         color: #f2f2f2;
         padding: 28px;
-        position: relative;   
+        position: relative;  
  }
 
   .nav a {
@@ -69,26 +70,35 @@
 
 .content {
     width: 90%;
-    margin-left: 50px;
-    display: block;
-    color: #f2f2f2;
+    margin-left: 80px;
+    display: inline-block;
+    color: #f2f2f2; 
+    transition: all 0.5s ease-in-out;
+      }
+
+.content :hover {
+        
+    background-color: rgb(22, 21, 21);
 
 }
 
 .content h1 {
     font-size: 50px;
+    text-decoration-line: underline;
     display: inline-block;
 
 }
+
 
 .content p {
     color: teal;
     margin-left: 50px;
+    font-size: 18px;
 }
+
 
 .about-me {
     display: inline-block;
-    margin-left: 50px;
     color: #f2f2f2;
     text-align: left;     
     padding: 16px 16px;
@@ -132,11 +142,21 @@
 
 }
 
-ul { 
+.contact-me a {
+    color: #f2f2f2;
 
-    padding-left: 200px;
+}
+
+ul { 
+    font-size: 20px;
+    color: #f2f2f2;
+    padding-left: 290px;
     columns: 2;
-    display: row;
+    list-style-type: square;
+}
+
+ul :hover {
+    color: teal;
 
 }
 
@@ -148,3 +168,4 @@ ul {
     color: #f2f2f2;
 
 }
+
