@@ -12,8 +12,8 @@
   }
 
  body {
-    font-family: Arial;
-    flex-direction:row;
+    font-family: arial;
+    flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
 
@@ -21,6 +21,8 @@
 
  .nav {
         float: right;
+        margin-top: 12px;
+        font-size: 18px;
         overflow: hidden;
         color: #f2f2f2;
         padding: 28px;
@@ -28,11 +30,11 @@
  }
 
   .nav a {
-        float: right;  
+        float: right; 
         display: block;
         color: #f2f2f2;
         text-align: center; margin-right: 30px;
-        padding: 16px 16px;
+        padding: 18px 18px;
         text-decoration: none;
         box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
 
@@ -45,6 +47,7 @@
 
    .header {
         float: left;
+        font-size: 25px;
         margin-left: 90px;
         margin-top: 12px; 
         display: block;
@@ -65,30 +68,83 @@
 
 
 .content {
-    width: 75%;
+    width: 90%;
+    margin-left: 50px;
+    display: block;
+    color: #f2f2f2;
+
+}
+
+.content h1 {
+    font-size: 50px;
     display: inline-block;
-    margin-left: 20px;
-}
-
-.leftcolumn { 
-    float: left
-
 
 }
-  
-  ul {
-    column-count: 4;
 
-    margin-right: 50px;
-    list-style-type: none;
-    float: left;
-    
-  }
+.content p {
+    color: teal;
+    margin-left: 50px;
+}
+
+.about-me {
+    display: inline-block;
+    margin-left: 50px;
+    color: #f2f2f2;
+    text-align: left;     
+    padding: 16px 16px;
+    text-decoration: none;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+
+
+}
+
+.resume {
+
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 16px 16px;
+    text-decoration: none;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+
+
+}
+
+.work {
+
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 16px 16px;
+    text-decoration: none;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.contact-me {
+
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 16px 16px;
+    text-decoration: none;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+ul { 
+
+    padding-left: 200px;
+    columns: 2;
+    display: row;
+
+}
+
 
 .footer {
-  padding-bottom: 30px;
-  clear: both;
-  text-align: center;
-  color: #f2f2f2;
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    color: #f2f2f2;
 
 }
