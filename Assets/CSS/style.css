@@ -38,8 +38,7 @@
         text-align: center; margin-right: 30px;
         padding: 18px 18px;
         text-decoration: none;
-        box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
-
+        box-shadow: 0 8px 8px 0 black;
   }
 
    .nav a:hover {
@@ -51,14 +50,12 @@
         float: left;
         font-size: 25px;
         margin-left: 90px;
-        margin-top: 12px; 
-        display: block;
+        margin-top: 20px; 
         color: #f2f2f2;
         text-align: center; margin-right: 40px;
         padding: 16px 16px;
         text-decoration: none;
-        box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
-
+        box-shadow: 0 8px 8px 0 black;
  }
 
  
@@ -68,7 +65,18 @@
 
  }
 
- img {
+ .hero {
+     background-image: linear-gradient(
+    teal,
+     rgb(20, 19, 19)
+     );
+     height: 150px;
+     max-width: 100%;
+ }
+
+
+ /* image in about-me section */
+img {
 
     float: left;
     height: auto;
@@ -76,21 +84,22 @@
     size: 190px;
     margin-left: 8px;
     padding: 10px; padding-right: 25px;  
-    
-  }
-
+    border: 2x solid black;
+}
 
 .content {
     width: 90%;
+    margin-top: 20px;
     margin-left: 80px;
     display: inline-block;
     color: #f2f2f2; 
     transition: all 0.8s ease-in-out;
-      }
 
-.content :hover {
-        
-    background-color: rgb(22, 21, 21);
+}
+
+.content :hover {   
+    background-color: rgb(20, 19, 19);
+
 
 }
 
@@ -111,41 +120,24 @@
 
 .about-me {
     display: inline-block;
+    margin-bottom: 30px;
     color: #f2f2f2;
     text-align: left;     
     padding: 16px 16px;
     text-decoration: none;
-    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
-
+    box-shadow: 0 8px 8px 0 black;
 
 }
-
-.resume {
-
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: left;
-    padding: 16px 16px;
-    text-decoration: none;
-    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
-}
-
-.resume-img {
-    margin-left: 220px;
-    width: 55%; 
-    padding-top: 10px;
-       
-}
-
 
 .work {
 
     display: inline-block;
+    margin-bottom: 30px;
     color: #f2f2f2;
     text-align: left;
     padding: 16px 16px;
     text-decoration: none;
-    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 8px 0 black;
 
 }
 
@@ -156,6 +148,23 @@
        
 }
 
+.resume {
+
+    display: inline-block;
+    margin-bottom: 30-x;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 16px 16px;
+    text-decoration: none;
+    box-shadow: 0 8px 8px 0 black;
+}
+
+.resume-img {
+    margin-left: 220px;
+    width: 55%; 
+    padding-top: 10px;
+       
+}
 
 .contact-me {
 
@@ -164,7 +173,7 @@
     text-align: left;
     padding: 16px 16px;
     text-decoration: none;
-    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 8px 0 black;
 
 }
 
