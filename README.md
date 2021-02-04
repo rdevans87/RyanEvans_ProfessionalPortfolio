@@ -4,7 +4,6 @@
 
 I've built this website using semantic HTML elements and advanced CSS properties to display my projects and experience while attending the Ohio State University's 24 week coding bootcamp.
 
-
 ## User Story
 
 ```
@@ -12,7 +11,7 @@ AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
- 
+
 ## Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
@@ -32,14 +31,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
 
 ## Grading Requirements
 
