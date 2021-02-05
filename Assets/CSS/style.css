@@ -8,7 +8,7 @@
 .linear-gradient-background {
     background-image: linear-gradient(
       rgb(20, 19, 19),
-      rgba(94, 94, 94, 0.6)
+      rgba(65, 64, 64, 0.6)
     );
   }
 
@@ -65,27 +65,23 @@
 
  }
 
- .nav-color {
+ .header-color {
      background-image: linear-gradient(
-    teal,
-     rgb(20, 19, 19)
-     );
+     rgb(22, 100, 202),
+     rgb(10, 10, 10));
      height: 150px;
      max-width: 100%;
  }
 
-
- /* profile image in about-me section */
-img {
-
-    float: left;
-    height: auto;
-    max-width: 100%; 
-    size: 190px;
-    margin-left: 8px;
-    padding: 10px; padding-right: 25px;  
-    border: 2x solid black;
-}
+ .hero {
+    height: 250px;
+    width: 100%;
+    background-image: url("../Images/hero-image.png");
+    border-bottom: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px
+ }
 
 .content {
     width: 90%;
@@ -110,9 +106,22 @@ img {
 
 }
 
+ /* profile image in about-me section */
+ img {
+
+    float: left;
+    height: auto;
+    max-width: 100%; 
+    size: 190px;
+    margin-left: 8px;
+    padding: 10px; padding-right: 25px;  
+    border: 2x solid black;
+}
+
 
 .about-me p {
-    color: teal;
+
+    color: rgb(22, 100, 202);
     margin-left: 50px;
     font-size: 20px;
 }
@@ -136,16 +145,29 @@ img {
     margin-bottom: 25px;
     color: #f2f2f2;
     text-align: left;
-    padding: 16px 16px;
+    padding: 16px 16px 0px;
     text-decoration: none;
     box-shadow: 0 8px 8px 0 black;
 
+}
+
+.work p {
+    color: rgb(22, 100, 202);
+    font-size: 20px;
+}
+
+.work-image p {
+
+    color: rgb(22, 100, 202);
+    font-size: 20px;
+    margin-left: 20px
 }
 
 .work-image {
     display: block;
     width: 100%;
     padding-top: 10px;
+    
 }
 
 .homework-image {
@@ -153,7 +175,7 @@ img {
     display: block;
     padding-top: 10px;
     width: 520px;
-    height: 600px;
+    height: 630px;
  
 }
 
@@ -163,11 +185,10 @@ img {
 }
 
 .scratch-iframe {
-    display: inline-block;
+    float: left;
+    display: block;
     padding-top: 10px;
     padding-left: 15px;
-    width: 485px;
-    height: 402px;   
 
 }
 
@@ -188,7 +209,8 @@ img {
 
 .resume-iframe {
     display: inline-block;
-    padding-left: 73px
+    padding-left: 73px;
+    padding-bottom: 10px;
 
 }
 
@@ -218,7 +240,7 @@ ul {
 }
 
 ul :hover {
-    color: teal;
+    color: rgb(22, 100, 202);
 
 }
 
