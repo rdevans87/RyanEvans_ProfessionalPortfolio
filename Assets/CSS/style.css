@@ -73,6 +73,7 @@
      max-width: 100%;
  }
 
+ /* hero image positioned below nav bar */
  .hero {
     height: 220px;
     width: 100%;
@@ -150,6 +151,10 @@
 
 }
 
+.container {
+    columns: 1
+}
+
 .work p {
     color: rgb(22, 100, 202);
     font-size: 20px;
@@ -172,11 +177,13 @@
 
 .work-image a:hover {
     opacity: 25%; 
-} 
+}
+
 
 .homework-image {
     float: left;
     display: block;
+    padding-left: 20px;
     padding-top: 10px;
     width: 520px;
     height: 630px;
@@ -266,13 +273,9 @@ ul :hover {
 
 
 @media screen and (max-width: 768px) {
-    header, .nav, .content, .footer, .resume-iframe, ul {
+    header, .nav, .content, .footer, ul {
       flex-direction: column;
       float: left;
     }
 }
       
-
-@media screen and (min-width: 600px) {
-
-}
