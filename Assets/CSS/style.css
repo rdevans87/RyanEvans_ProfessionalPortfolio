@@ -210,7 +210,7 @@
 
 .resume {
 
-    display: inline-block;
+    display: block;
     margin-bottom: 25px;
     color: #f2f2f2;
     text-align: left;
@@ -221,8 +221,7 @@
 
 .resume-iframe {
     display: inline-block;
-    padding-left: 73px;
-    padding-right: 89px;
+    padding-left: 80px;
     padding-bottom: 10px;
 
 }
