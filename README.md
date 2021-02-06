@@ -28,7 +28,10 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+
 ```
+
+![image](https://user-images.githubusercontent.com/74195719/107107898-15ce5880-6802-11eb-9302-971f7211bb72.png)
 
 ## Grading Requirements
 
