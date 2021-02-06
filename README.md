@@ -1,8 +1,8 @@
-# homework2-february-6-2021
-
 # 02 Advanced CSS: Portfolio
 
 I've built this website using semantic HTML elements and advanced CSS properties to display my projects and experience while attending the Ohio State University's 24 week coding bootcamp.
+
+Application deployed at live URL: https://rdevans87.github.io/homework2-february-6-2021/
 
 ## User Story
 
