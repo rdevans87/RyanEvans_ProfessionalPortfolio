@@ -8,7 +8,7 @@
 .linear-gradient-background {
     background-image: linear-gradient(
       rgb(20, 19, 19),
-      rgba(65, 64, 64, 0.6)
+      rgba(46, 45, 45, 0.6)
     );
   }
 
@@ -22,9 +22,8 @@
 
  .nav {
         float: right;
-        flex-direction: column;
         margin-top: 12px;
-        font-size: 18px;
+        font-size: 20px;
         overflow: hidden;
         color: #f2f2f2;
         padding: 28px;
@@ -35,9 +34,10 @@
         float: right; 
         display: block;
         color: #f2f2f2;
-        text-align: center; margin-right: 30px;
+        text-align: center; 
+        margin-right: 30px;
         padding: 18px 18px;
-        text-decoration: none;
+        text-decoration-line: underline;
         box-shadow: 0 8px 8px 0 black;
   }
 
@@ -48,7 +48,7 @@
 
    .header {
         float: left;
-        font-size: 25px;
+        font-size: 30px;
         margin-left: 90px;
         margin-top: 20px; 
         color: #f2f2f2;
@@ -74,7 +74,7 @@
  }
 
  .hero {
-    height: 250px;
+    height: 220px;
     width: 100%;
     background-image: url("../Images/hero-image.png");
     border-bottom: 2px solid black;
@@ -102,7 +102,7 @@
 .content h1 {
     font-size: 60px;
     text-decoration-line: underline;
-    display: inline-block;
+   
 
 }
 
@@ -140,12 +140,11 @@
 }
 
 .work {
-
     display: inline-block;
     margin-bottom: 25px;
     color: #f2f2f2;
     text-align: left;
-    padding: 16px 16px 0px;
+    padding: 16px 16px;
     text-decoration: none;
     box-shadow: 0 8px 8px 0 black;
 
@@ -168,7 +167,12 @@
     width: 100%;
     padding-top: 10px;
     
+    
 }
+
+.work-image a:hover {
+    opacity: 25%; 
+} 
 
 .homework-image {
     float: left;
@@ -184,6 +188,10 @@
 
 }
 
+.homework-image a:hover {
+    opacity: 25%
+}
+
 .scratch-iframe {
     float: left;
     display: block;
@@ -192,13 +200,17 @@
 
 }
 
+.scratch-iframe a {
+    color: rgb(226, 157, 28);
+}
+
 .scratch-iframe p {
     padding-bottom: 10px
 }
 
 .resume {
 
-    display: block;
+    display: inline-block;
     margin-bottom: 25px;
     color: #f2f2f2;
     text-align: left;
@@ -210,6 +222,7 @@
 .resume-iframe {
     display: inline-block;
     padding-left: 73px;
+    padding-right: 89px;
     padding-bottom: 10px;
 
 }
@@ -252,15 +265,15 @@ ul :hover {
 
 }
 
-@media screen and (max-width: 400px) {
-    .nav a {
-     flex-shrink: 30%;
-    }
-}
 
 @media screen and (max-width: 768px) {
-     { 
-        width: 100%; 
-        float: left;
+    header, .nav, .content, .footer, .resume-iframe, ul {
+      flex-direction: column;
+      float: left;
     }
+}
+      
+
+@media screen and (min-width: 600px) {
+
 }

@@ -12,9 +12,7 @@ I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
 
-## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+## Completed Acceptance Criteria
 
 ```
 GIVEN I need to sample a potential employee's previous work
@@ -38,30 +36,30 @@ This homework is graded based on the following criteria:
 
 ### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the above acceptance criteria.
+* Satisfies all of the above acceptance criteria. <!--complete-->
 
 ### Deployment: 32%
 
-* Application deployed at live URL.
+* Application deployed at live URL. <!--complete-->
 
-* Application loads with no errors.
+* Application loads with no errors. <!--complete-->
 
-* Application GitHub URL submitted.
+* Application GitHub URL submitted. <!--complete-->
 
-* GitHub repository contains application code.
+* GitHub repository contains application code. <!--complete-->
 
 ### Application Quality: 15%
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+* Application resembles the mock-up functionality provided in the homework instructions. <!--complete-->
 
 ### Repository Quality: 13%
 
-* Repository has a unique name.
+* Repository has a unique name. <!--complete-->
 
-* Repository follows best practices for file structure and naming conventions.
+* Repository follows best practices for file structure and naming conventions. <!--complete-->
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc. <!--complete-->
 
-* Repository contains multiple descriptive commit messages.
+* Repository contains multiple descriptive commit messages. <!--complete-->
 
-* Repository contains quality readme with description, screenshot, link to deployed application.
+* Repository contains quality readme with description, screenshot, link to deployed application. <!--complete-->
