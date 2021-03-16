@@ -17,17 +17,19 @@
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
+    color: #f2f2f2
 
  }
 
  .nav {
         float: right;
         margin-top: 12px;
-        font-size: 20px;
+        font-size: 18px;
         overflow: hidden;
         color: #f2f2f2;
         padding: 28px;
-        position: relative;  
+        position: relative; 
+        text emO: bold;
  }
 
   .nav a {
@@ -48,11 +50,11 @@
 
    .header {
         float: left;
-        font-size: 30px;
-        margin-left: 90px;
+        font-size: 25px;
+        margin-left: 70px;
         margin-top: 20px; 
         color: #f2f2f2;
-        text-align: center; margin-right: 40px;
+        text-align: center; margin-right: 30px;
         padding: 16px 16px;
         text-decoration: none;
         box-shadow: 0 8px 8px 0 black;
@@ -75,7 +77,7 @@
 
  /* hero image positioned below nav bar */
  .hero {
-    height: 220px;
+    height: 180px;
     width: 100%;
     background-image: url("../Images/hero-image.png");
     border-bottom: 2px solid black;
@@ -84,14 +86,18 @@
     margin-bottom: 10px
  }
 
-.content {
-    width: 90%;
-    margin-top: 20px;
-    margin-left: 80px;
-    display: inline-block;
-    color: #f2f2f2; 
-    transition: all 0.8s ease-in-out;
+.page-wrapper {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+.content {
+    width: 95%;
+    margin-top: 15px;
+    margin-left: 50px;
+    display: inline-block;
+    transition: all 0.8s ease-in-out;
 }
 
 .content :hover {   
@@ -103,9 +109,18 @@
 .content h1 {
     font-size: 60px;
     text-decoration-line: underline;
-   
-
 }
+
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  
 
  /* profile image in about-me section */
  img {
@@ -120,7 +135,7 @@
 }
 
 
-.about-me p {
+#about-me p {
 
     color: rgb(22, 100, 202);
     margin-left: 50px;
@@ -128,7 +143,7 @@
 }
 
 
-.about-me {
+#about-me {
 
     display: inline-block;
     margin-bottom: 25px;
