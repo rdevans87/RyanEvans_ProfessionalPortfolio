@@ -155,7 +155,7 @@
 
 }
 
-.work {
+#work {
     display: inline-block;
     margin-bottom: 25px;
     color: #f2f2f2;
@@ -166,21 +166,11 @@
 
 }
 
-.container {
-    columns: 1
-}
-
-.work p {
-    color: rgb(22, 100, 202);
-    font-size: 20px;
-}
-
-.work-image p {
-
-    color: rgb(22, 100, 202);
-    font-size: 20px;
-    margin-left: 20px
-}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
 .work-image {
     display: block;
