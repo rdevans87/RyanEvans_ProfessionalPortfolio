@@ -1,4 +1,4 @@
-# 02 Advanced CSS: Portfolio
+# Ryan Evans: Professional Portfolio
 
 I've built this website using semantic HTML elements and advanced CSS properties to display my projects and experience while attending the Ohio State University's 24 week coding bootcamp.
 
@@ -31,6 +31,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ```
 ![image](https://user-images.githubusercontent.com/74195719/107107898-15ce5880-6802-11eb-9302-971f7211bb72.png)
+
+
+[MIT LICENSE](/Users/ryanevans/LICENSE.txt)
+
 
 ## Requirements
 

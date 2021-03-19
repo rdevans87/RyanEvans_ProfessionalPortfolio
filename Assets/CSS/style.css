@@ -29,7 +29,7 @@
         color: #f2f2f2;
         padding: 28px;
         position: relative; 
-        text emO: bold;
+       
  }
 
   .nav a {
@@ -175,7 +175,20 @@
 
 #project {
   background-image: url("../Images/flare_main.jpg");
+  margin-top: 20px;
+  min-height: 300px;
+  flex-basis: 100%;
+  max-width: 95%
 }
+
+#repository {
+  background-image: url("../Images/repo-image.png");
+  margin-top: 20px;
+  min-height: 300px;
+  flex-basis: 100%;
+  max-width: 95%
+}
+
 
 .flex-item {
     border: 5px solid var(--secondary);
@@ -194,13 +207,6 @@
     transition: all 0.5s;
     font-size: 0.9rem;
   }
-
-  .flex-item:first-child {
-    margin-top: 20px;
-    min-height: 300px;
-    flex-basis: 100%;
-    max-width: 95%
-}
 
 
 .flex-item:hover {
@@ -231,7 +237,7 @@
 .resume-iframe {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 80px;
+    padding-left: 50px;
     margin-bottom: 20px;
     margin-left: 40px;
    
@@ -310,8 +316,9 @@ ul :hover {
 
 @media screen and (max-width: 768px) {
     .flex-item,
-    .flex-item:first-child {
-      flex-basis: 100%;
+     #project,
+     #repository{
+    flex-basis: 100%;
     }
   
     .flex-item:first-child {
@@ -323,7 +330,7 @@ ul :hover {
       text-align: center;
     }
   
-    .contact {
+    .contact, .about-me {
       flex-direction: column;
       align-items: flex-start;
     }
