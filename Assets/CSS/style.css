@@ -77,7 +77,7 @@
 
  /* hero image positioned below nav bar */
  .hero {
-    height: 180px;
+    height: 200px;
     width: 100%;
     background-image: url("../Images/hero-image.png");
     border-bottom: 2px solid black;
@@ -145,7 +145,7 @@
 
 #about-me {
 
-    display: inline-block;
+    display: block;
     margin-bottom: 20px;
     color: #f2f2f2;
     text-align: left;     
@@ -203,7 +203,21 @@
 }
 
 
-.resume {
+.flex-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .flex-item div {
+    background-color: var(--secondary);
+    padding: 8px 10px;
+  }
+  
+  .flex-item h3 {
+    font-size: 1.6rem;
+  }
+  
+
+#resume {
 
     display: block;
     margin-bottom: 20px;
@@ -215,33 +229,38 @@
 }
 
 .resume-iframe {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 80px;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+   
 
 }
 
-.contact-me {
-
+#contact-me {
     display: block;
+    flex-wrap: wrap;
     margin-bottom: 20px;
     color: #f2f2f2;
     text-align: left;
     padding: 16px 16px;
     text-decoration: none;
     box-shadow: 0 8px 8px 0 black;
+    padding-bottom: 20px;
 
 }
 
-.contact-me a {
+#contact-me a {
     color: #f2f2f2;
 
 }
 
 ul { 
+    margin-left: 290px;
+    flex-wrap: wrap;
     font-size: 20px;
     color: #f2f2f2;
-    padding-left: 290px;
     columns: 2;
     list-style-type: square;
 }
@@ -259,12 +278,35 @@ ul :hover {
 
 }
 
-@media screen and (max-width: 768px) {
-    header, .nav, .content, .footer, ul {
-      flex-direction: column;
-      float: left;
+
+@media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
     }
-}
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    nav {
+      justify-content: center;
+    }
+
+    ul {
+      margin-left: 30px;
+      flex-direction: row;  
+    }
+
+    .resume-iframe{
+        padding-left: 5px;
+    }
+
+  }
 
 @media screen and (max-width: 768px) {
     .flex-item,
@@ -281,8 +323,13 @@ ul :hover {
       text-align: center;
     }
   
-    .contact address {
+    .contact {
       flex-direction: column;
       align-items: flex-start;
+    }
+
+    .content {
+        margin-left: 15px;
+
     }
   }

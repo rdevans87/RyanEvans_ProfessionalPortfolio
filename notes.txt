@@ -11,3 +11,7 @@
                             <iframe src="https://scratch.mit.edu/projects/452920439/embed" allowtransparency="true"
                                 width="500" height="374" frameborder="0" scrolling="no" allowfullscreen>
                             </iframe>
+
+                                            <div class="resume-iframe">
+                    <object data="mypdf.pdf" type="application/pdf"
+        width="800" height="1200" typemustmatch>
