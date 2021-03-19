@@ -1,0 +1,13 @@
+ <a href="https://rdevans87.github.io/groupEighteen/" target="_blank">
+            <img src="Assets/Images/work-image.png" alt="work-image"></a>
+        </div>
+
+         <a href="https://rdevans87.github.io/homework-january-30-2021/" target="_blank">
+        <img src="Assets/Images/homework-image.png" alt="homework-image"></a>
+
+          <p>Password Generator<a href="https://scratch.mit.edu/projects/452920439"
+                                    target="_blank">Super Hungry Shark</a> on Scratch!</p>
+                            <!-- used iframe from w3 schoool URL: https://www.w3schools.com/html/html_iframe.asp -->
+                            <iframe src="https://scratch.mit.edu/projects/452920439/embed" allowtransparency="true"
+                                width="500" height="374" frameborder="0" scrolling="no" allowfullscreen>
+                            </iframe>
