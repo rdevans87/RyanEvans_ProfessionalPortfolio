@@ -92,6 +92,7 @@
     margin-right: auto;
   }
 
+
 .content {
     width: 95%;
     margin-top: 15px;
@@ -120,7 +121,6 @@
     align-items: stretch;
     justify-content: space-between;
   }
-  
 
  /* profile image in about-me section */
  img {
@@ -146,7 +146,7 @@
 #about-me {
 
     display: inline-block;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     color: #f2f2f2;
     text-align: left;     
     padding: 16px 16px;
@@ -156,8 +156,8 @@
 }
 
 #work {
-    display: inline-block;
-    margin-bottom: 25px;
+    display: block;
+    margin-bottom: 20px;
     color: #f2f2f2;
     text-align: left;
     padding: 16px 16px;
@@ -172,58 +172,41 @@
     justify-content: center;
   }
 
-#work-image {
-    display: block;
-    width: 100%;
-    padding-top: 10px;
-    
-    
+
+#project {
+  background-image: url("../Images/flare_main.jpg");
 }
 
-#work-image a:hover {
-    opacity: 25%; 
+.flex-item {
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
+
+  .flex-item:first-child {
+    margin-top: 20px;
+    min-height: 300px;
+    flex-basis: 100%;
+    max-width: 95%
 }
 
-
-.homework-image {
-    float: left;
-    display: block;
-    padding-left: 20px;
-    padding-top: 10px;
-    width: 520px;
-    height: 630px;
- 
-}
-
-.homework-image p {
-    padding-left: 20px
-
-}
-
-.homework-image a:hover {
-    opacity: 25%
-}
-
-.scratch-iframe {
-    float: left;
-    display: block;
-    padding-top: 10px;
-    padding-left: 15px;
-
-}
-
-.scratch-iframe a {
-    color: rgb(226, 157, 28);
-}
-
-.scratch-iframe p {
-    padding-bottom: 10px
-}
 
 .resume {
 
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     color: #f2f2f2;
     text-align: left;
     padding: 16px 16px;
@@ -241,7 +224,7 @@
 .contact-me {
 
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     color: #f2f2f2;
     text-align: left;
     padding: 16px 16px;
@@ -276,11 +259,30 @@ ul :hover {
 
 }
 
-
 @media screen and (max-width: 768px) {
     header, .nav, .content, .footer, ul {
       flex-direction: column;
       float: left;
     }
 }
-      
+
+@media screen and (max-width: 768px) {
+    .flex-item,
+    .flex-item:first-child {
+      flex-basis: 100%;
+    }
+  
+    .flex-item:first-child {
+      min-height: 150px;
+    }
+  
+    .hero-banner {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .contact address {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
