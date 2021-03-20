@@ -5,6 +5,7 @@ I've built this website using semantic HTML elements and advanced CSS properties
 Application deployed at live URL: https://rdevans87.github.io/RyanEvans_ProfessionalPortfolio/
 
 ## Languages and Technologies
+```
 Javascript
 jQuery
 Bootstrap
@@ -20,6 +21,7 @@ Python
 Java
 C#
 PHP
+```
 
 ## User Story
 
