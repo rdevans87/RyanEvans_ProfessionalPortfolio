@@ -1,8 +1,11 @@
 # Ryan Evans: Professional Portfolio
 
-I've built this website using semantic HTML elements and advanced CSS properties to display my projects and experience while attending the Ohio State University's 24 week coding bootcamp.
+I've built this website using semantic HTML elements and advanced CSS properties to display my projects and experience while attending the Ohio State University's 24 week coding bootcamp. 
 
 Application deployed at live URL: https://rdevans87.github.io/RyanEvans_ProfessionalPortfolio/
+
+## Languages and Technologies
+Javascript, jQuery, Bootstrap, Express.js, React.js, Node.js, Progressive Web Apps, Database Theory, MongoDB, MySQL, Git, Python, Java, C#, PHP.
 
 ## User Story
 
