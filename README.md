@@ -5,7 +5,21 @@ I've built this website using semantic HTML elements and advanced CSS properties
 Application deployed at live URL: https://rdevans87.github.io/RyanEvans_ProfessionalPortfolio/
 
 ## Languages and Technologies
-Javascript, jQuery, Bootstrap, Express.js, React.js, Node.js, Progressive Web Apps, Database Theory, MongoDB, MySQL, Git, Python, Java, C#, PHP.
+Javascript
+jQuery
+Bootstrap
+Express.js
+React.js
+Node.js
+Progressive Web Apps
+Database Theory
+MongoDB
+MySQL
+Git
+Python
+Java
+C#
+PHP
 
 ## User Story
 
