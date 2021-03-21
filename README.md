@@ -29,7 +29,12 @@ PHP
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
 ```
+
+![image](https://user-images.githubusercontent.com/74195719/111891376-03326c00-89c9-11eb-8679-3d9152e4d7ec.png)
+
+
 
 ## Completed Acceptance Criteria
 
