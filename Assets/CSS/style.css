@@ -193,6 +193,7 @@
   background-image: url("../Images/passwordImage.jpg");
   max-width: 58vh;
   margin: 0.5em;
+  margin-top: 15px;
  
 }
 
@@ -200,10 +201,9 @@
   background-image: url("../Images/planner.jpg");
   max-width: 58vh;
   margin: 0.5em;
-  
+  margin-top: 15px;
 
 }
-
 
 .flex-item {
     border: 5px solid var(--secondary);
@@ -252,9 +252,9 @@
 .resume-iframe {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 40px;
+    padding-left: 20px;
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
    
 
 }
