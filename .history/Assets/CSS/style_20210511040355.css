@@ -192,8 +192,8 @@
   max-width: 95%
 }
 
-#dashboard {
-  background-image: url("../Images/weatherapp.jpg");
+#password {
+  background-image: url("../Images/passwordImage.jpg");
   max-width: 58vh;
   margin: 0.5em;
   margin-top: 15px;
