@@ -14,15 +14,14 @@ Full stack web developer open to independent projects, collaborative opportuniti
 
 • Programming Languages: HTML5, CSS3, JavaScript ES6
 
-• Technologies/Libraries/Frameworks: Bootstrap, Materialize, React.js, Node.js, jQuery, HTTP
-Requests, RESTful APIs, AJAX, CMS
+• Technologies/Libraries/Frameworks: Bootstrap, Materialize, React.js, Node.js, jQuery, HTTP Requests, RESTful APIs, AJAX, CMS
 
 • Development Methods: Pseudocode, Agile Principles, Scrum/Kanban, Mobile First, Wireframe
 
 • Web Services: Blog, Small business, Restaurants, Real Estate, Special Events, Professional
 Resumes, Creative Portfolios, E-Commerce
 
-## PROJECTS
+## GROUP PROJECTS:
 
 ### PetTrax <br>
 GitHub: https://github.com/rdevans87/pettrax<br>
@@ -61,14 +60,9 @@ Role: Full Stack Developer<br>
 
 
 
-## User Story:
+## RESUME:
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-```
 
 ![image](https://user-images.githubusercontent.com/74195719/111891376-03326c00-89c9-11eb-8679-3d9152e4d7ec.png)
 
