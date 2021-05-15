@@ -15,3 +15,21 @@
                                             <div class="resume-iframe">
                     <object data="mypdf.pdf" type="application/pdf"
         width="800" height="1200" typemustmatch>
+
+
+
+### Code Quiz
+
+### Day Planner 
+GitHub: https://github.com/rdevans87/ThirdPartyAPIs_DayPlanner<br>
+Deployed: https://rdevans87.github.io/ThirdPartyAPIs_DayPlanner/<br>
+Summary: Daily Planner App to save events for each hour of the work day with color coded time-blocks.<br>
+Tools: HTML, CSS, jQuery, API, Bootstrap, Font Awesome, Moment.js<br>
+Role: Full Stack Developer<br>
+
+### Flare App <br>
+GitHub: https://github.com/rdevans87/Flare_App <br>
+Deployed: https://rdevans87.github.io/Flare_App/ <br>
+Summary:  A discreet resource for victims of domestic violance<br>
+Tools: HTML, CSS, JavaScript, BootStrap, Open-Source API, HTTP Requests<br>
+Role: Front-End Developer<br>

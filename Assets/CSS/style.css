@@ -280,6 +280,10 @@
 
 }
 
+#contact-me a:hover {
+  color: rgb(22, 100, 202);
+}
+
 ul { 
     margin-left: 290px;
     flex-wrap: wrap;
@@ -352,6 +356,7 @@ ul :hover {
       flex-direction: column;
       align-items: flex-start;
     }
+
 
     .content {
         margin-left: 15px;

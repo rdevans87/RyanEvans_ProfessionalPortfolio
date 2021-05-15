@@ -8,59 +8,46 @@ Application deployed at live URL: [My Professional Portfolio](https://rdevans87.
 
 ## DESCRIPTION:
 
-Full stack web developer open to independent projects, collaborative opportunities, and contract-to-hire positions. Knowledge of front-end languages and third-party frameworks for building mobile responsive web applications. Experience with DOM manipulation and JSON data integration with server-side APIs. Cloud application-platforms (Heroku), Command Line Interface (Git), MySQL database creation and management, object-oriented programming (OOP), object-relational mapping (ORM), model-view-controller(MVC)
+Full stack web developer open to independent projects, collaborative opportunities, and contract-to-hire positions. open to independent projects, collaborative opportunities, and contract-to-hire positions. Knowledge of `front-end` languages and third-party frameworks for building mobile responsive web applications. 
+
+Experience with `DOM` manipulation and `JSON` data integration with server-side `APIs`. Cloud application-platforms `Heroku` Command Line Interface `Git`, `MySQL` database creation and management, object-oriented programming `OOP`, object-relational mapping `ORM`, model-view-controller `MVC`
 
 ## SKILLS: 
 
-• Programming Languages: HTML5, CSS3, JavaScript ES6
+• Programming Languages: `HTML5`, `CSS3`, `JavaScript ES6`
 
-• Technologies/Libraries/Frameworks: Bootstrap, Materialize, React.js, Node.js, jQuery, HTTP Requests, RESTful APIs, AJAX, CMS
+• Technologies/Frameworks: `Bootstrap`, `Materialize`, `React.js`,`Node.js`, `jQuery`, `RESTful APIs`, `AJAX`, `CMS`
 
-• Development Methods: Pseudocode, Agile Principles, Scrum/Kanban, Mobile First, Wireframe
+• Development Methods: `Pseudocode`, `Agile Principles`, `Scrum`, `Kanban`, `Mobile First`, Wireframe
 
-• Web Services: Blog, Small business, Restaurants, Real Estate, Special Events, Professional
-Resumes, Creative Portfolios, E-Commerce
-
-## GROUP PROJECTS:
+## GROUP PROJECT:
 
 ### PetTrax <br>
 GitHub: https://github.com/rdevans87/pettrax<br>
 Deployed: https://secret-coast-15963.herokuapp.com/<br>
 Summary:  A simple app for tracking your pets daily rhythms<br>
 Tools: HTML, CSS, JavaScript, CLI, Node.js, MySQL, Express, Sequelize, Handlebars, Adobe PhotoShop, Bootstrap, Cloudinary, LucidChart, Heroku<br>
-Role: Back-End Developer<br>
-
-### Flare App <br>
-GitHub: <br>
-Deployed:<br>
-Summary:  A discreet resource for victims of domestic violance<br>
-Tools: HTML, CSS, JavaScript, CLI, Node.js, MySQL, Express, Sequelize, Handlebars, Adobe PhotoShop, Bootstrap, Cloudinary, LucidChart, Heroku<br>
-Role: Front-End Developer<br>
-
-
+Role: Full-Stack Developer<br>
 
 ## ASSIGNMENTS
 
-### Code Quiz
-
-### Day Planner 
-GitHub: https://github.com/rdevans87/ThirdPartyAPIs_DayPlanner<br>
-Deployed: https://rdevans87.github.io/ThirdPartyAPIs_DayPlanner/<br>
-Summary: Daily Planner App to save events for each hour of the work day with color coded time-blocks.<br>
-Tools: HTML, CSS, jQuery, API, Bootstrap, Font Awesome, Moment.js<br>
-Role: Full Stack Developer<br>
-
-
 ### Weather Dashboard
+GitHub: https://github.com/rdevans87/Weather-Dashboard-March-6-2021
+Deployed: https://rdevans87.github.io/Weather-Dashboard-March-6-2021/
+Summary: Weather app that provides current and future weather forecasts in United States.
+Tools: HTML, CSS, JavaScript, API, Bootstrap, Font Awesome, Moment.js, HTTP requests.
+Role: Front-End Developer
 
-### Password Generator 
-
-
-
-
-
+### E-Commerce Backend App
+GitHub: https://github.com/rdevans87/ORM-ECommerce-BackEnd<br>
+Deployed: https://rdevans87.github.io/ORM-ECommerce-BackEnd/<br>
+Summary: Backend of an E-Commerce site using HTTP requests to modify inventory.<b>
+Tools: Node.js, CLI, MySQL, RESTful API, Express.js, Sequelize
+Role: Back-End Developer  
 
 ## RESUME:
+
+
 
 
 
