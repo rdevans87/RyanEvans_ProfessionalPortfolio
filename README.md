@@ -39,7 +39,7 @@ Role: Front-End Developer
 ### E-Commerce Backend App
 GitHub: https://github.com/rdevans87/ORM-ECommerce-BackEnd<br>
 Deployed: https://rdevans87.github.io/ORM-ECommerce-BackEnd/<br>
-Summary: Backend of an E-Commerce site using HTTP requests to modify inventory.<b>
+Summary: Backend of an E-Commerce site using HTTP requests to modify inventory.<br>
 Tools: Node.js, CLI, MySQL, RESTful API, Express.js, Sequelize<br>
 Role: Back-End Developer  
 
