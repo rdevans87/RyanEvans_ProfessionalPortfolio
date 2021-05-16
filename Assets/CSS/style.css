@@ -190,7 +190,7 @@ span {
 
 
 #project {
-  background-image: url("../Images/PetTraxLogo.png");
+  background-image: url("../images/PetTraxLogo.png");
   margin-top: 20px;
   min-height: 300px;
   flex-basis: 100%;
@@ -198,7 +198,7 @@ span {
 }
 
 #repository {
-  background-image: url("../Images/repo-image.png");
+  background-image: url("../images/repo-image.png");
   margin-top: 20px;
   min-height: 300px;
   flex-basis: 100%;
@@ -206,7 +206,7 @@ span {
 }
 
 #dashboard {
-  background-image: url("../Assets/images/ecommerce.png");
+  background-image: url("../images/weatherapp.jpg");
   max-width: 58vh;
   margin: 0.5em;
   margin-top: 15px;
@@ -214,7 +214,7 @@ span {
 }
 
 #backend {
-  background-image: url("../Images/ecommerce.jpg");
+  background-image: url("../images/ecommerce.png");
   max-width: 58vh;
   margin: 0.5em;
   margin-top: 15px;
