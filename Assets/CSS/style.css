@@ -130,7 +130,8 @@
     max-width: 100%; 
     size: 190px;
     margin-left: 8px;
-    padding: 10px; padding-right: 25px;  
+    padding: 10px; padding-right: 25px;
+    padding-bottom: 70px;  
     border: 2x solid black;
 }
 
@@ -140,6 +141,10 @@
     color: #f2f2f2;
     margin-left: 50px;
     font-size: 20px;
+}
+
+.icon1{
+  margin-left: 200px;
 }
 
 
@@ -166,6 +171,14 @@
 
 }
      
+h3 {
+  color: rgb(22, 100, 202);
+
+}
+
+span {
+  color: rgb(22, 100, 202);;
+}
 
 
 
@@ -200,8 +213,8 @@
  
 }
 
-#planner {
-  background-image: url("../Images/planner.jpg");
+#backend {
+  background-image: url("../Images/ecommerce.jpg");
   max-width: 58vh;
   margin: 0.5em;
   margin-top: 15px;
@@ -233,7 +246,7 @@
 
   .flex-item div {
     background-color: var(--secondary);
-    padding: 8px 10px;
+    padding: 5px 10px;
   }
   
   .flex-item h3 {
@@ -277,6 +290,7 @@
 
 #contact-me a {
     color: #f2f2f2;
+    text-decoration: none;
 
 }
 
